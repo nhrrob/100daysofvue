@@ -15,7 +15,8 @@
 
     <div id="app">
         <ul>
-            <li v-for='name in names'>{{ name }}</li>
+            <!-- <li v-for='name in names'>{{ name }}</li> -->
+            <li v-for='name in names' v-text="name"></li>
         </ul>
 
         <input type="text" id="nameInput">
